@@ -525,8 +525,54 @@ h6 {
    height: 100%;
    object-fit: cover;
 }
+.post-img-3-1 {
+   overflow: hidden;
+   height: calc(110px + (333 - 110) * ((100vw - 320px) / (1440 - 360)));
+   flex: 1 0 calc(150px + (447 - 150) * ((100vw - 320px) / (1440 - 360)));
+   margin-left: calc(6px + (15 - 6) * ((100vw - 320px) / (1440 - 360)));
+}
 
+.post-img-3-1 img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.post-img-3-2 {
+   overflow: hidden;
+   height: calc(130px + (300 - 130) * ((100vw - 320px) / (1440 - 360)));
+   flex: 1 0 calc(165px + (432 - 165) * ((100vw - 320px) / (1440 - 360)));
+   margin-right: calc(6px + (15 - 6) * ((100vw - 320px) / (1440 - 360)));
+}
 
+.post-img-3-2 img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.post-img-3-3 {
+   overflow: hidden;
+   height: calc(110px + (243 - 110) * ((100vw - 320px) / (1440 - 360)));
+   flex: 1 0 calc(156px + (332 - 156) * ((100vw - 320px) / (1440 - 360)));
+   margin-left: calc(6px + (15 - 6) * ((100vw - 320px) / (1440 - 360)));
+}
+
+.post-img-3-3 img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.post-img-3-4 {
+   overflow: hidden;
+   height: calc(110px + (320 - 110) * ((100vw - 320px) / (1440 - 360)));
+   flex: 1 0 calc(165px + (408 - 165) * ((100vw - 320px) / (1440 - 360)));
+   margin-right: calc(6px + (15 - 6) * ((100vw - 320px) / (1440 - 360)));
+}
+
+.post-img-3-4 img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
 @media(max-width: 991px) {
    .post__left {
       display: none;
